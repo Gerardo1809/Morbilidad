@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class ConsultarinformaciongeneraldemorbilidadConfig(AppConfig):
-    name = 'ConsultarInformacionGeneralDeMorbilidad'
+    name = 'ConsultarInformacionGeneraldeMorbilidad'

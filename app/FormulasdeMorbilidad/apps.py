@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class FormulasdemorbilidadConfig(AppConfig):
-    name = 'formulasDeMorbilidad'
+    name = 'FormulasdeMorbilidad'

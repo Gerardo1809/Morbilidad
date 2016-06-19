@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app.morbilidadSV',
+    'app.AdministrarInformacion',
+    'app.ConsultarInformacionGeneraldeMorbilidad',
+    'app.FormulasdeMorbilidad',
+    
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -77,7 +82,7 @@ WSGI_APPLICATION = 'Morbilidad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Morbilidad',
+        'NAME': 'MorbilidadBD',
         'USER': 'grupo04',
         'PASSWORD': 'mysql123',
         'HOST': 'localhost',
