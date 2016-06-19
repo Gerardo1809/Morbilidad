@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'app.AdministrarInformacion',
     'app.ConsultarInformacionGeneraldeMorbilidad',
     'app.FormulasdeMorbilidad',
+    'django_tables2',
+    'crudbuilder',
     
 ]
 
