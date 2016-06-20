@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'app.FormulasdeMorbilidad',
     'django_tables2',
     'crudbuilder',
-    
+    'chartit',
     
 ]
 
