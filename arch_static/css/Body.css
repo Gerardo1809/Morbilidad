@@ -1,0 +1,35 @@
+#bodyPrincipal{
+background: url("Imagenes/Fondo/medicos.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#bodyAdministrar{
+background: url("Imagenes/Fondo/green.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#bodyConsultar{
+background: url("Imagenes/Fondo/f4.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#bodyFormulas{
+background: url("Imagenes/Fondo/f3.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#bodyGrafico{
+background: url("Imagenes/Fondo/f5.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}

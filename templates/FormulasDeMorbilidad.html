@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FormulasDeMorbilidad</title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link href="Body.css" rel="stylesheet" type="text/css">
+    <link href="Tabla.css" rel="stylesheet" type="text/css">
+  </head>
+  <body id="bodyFormulas">
+    <div align="center"><h1><p id="tituloPaginas">Formulas de Morbilidad</p></h1></div>
+    <br><br>
+    <fieldset class="cruCalculadora">
+      <table style="width: 100px;">
+        <tbody>
+          <tr>
+            <td><input type="button" value="7" onclick="agregarNumero(7);"/></td>
+            <td><input type="button" value="8" onclick="agregarNumero(8);"/></td>
+            <td><input type="button" value="9" onclick="agregarNumero(9);"/></td>
+            <td><input name="div" type="submit" value="/"/></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="4" onclick="agregarNumero(4);"/></td>
+            <td><input type="button" value="5" onclick="agregarNumero(5);"/></td>
+            <td><input type="button" value="6" onclick="agregarNumero(6);"/></td>
+            <td><input name="prod" type="submit" value="*"/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><input name="n1" type="submit" value="n1"/></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="1" onclick="agregarNumero(1);"/></td>
+            <td><input type="button" value="2" onclick="agregarNumero(2);"/></td>
+            <td><input type="button" value="3" onclick="agregarNumero(3);"/></td>
+            <td><input name="sum" type="submit" value="+"/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><th/></td>
+            <td><input name="n2" type="submit" value="n2"/></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="0" onclick="agregarNumero(0);"/></td>
+            <td><input type="button" value="." onclick="agregarNumero('.');"/></td>
+            <td><input name="result" type="submit" value="="/></td>
+            <td><input name="rest" type="submit" value="-"/></td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="text" placeholder="formula generada" id="formulaGenerada" />
+      <br/><br/><br/>
+      <input type="submit" name="submit" id="botonAceptar" value="Aceptar" align="center"/>
+    </fieldset>
+    <br><br><br><br>
+    <table class="tabla">
+      <caption class="tiTabla">Datos generados a traves de la formula editada</caption>
+    <thead>
+       <tr>
+         <th scope="col">Departamento</th>
+         <th scope="col">Mes</th>
+         <th scope="col">Enfermedad</th>
+         <th scope="col">Año</th>
+         <th scope="col">Cantidad</th>
+       </tr>
+    </thead>
+
+    <tbody>
+       <tr>
+         <td>departamento 1</td>
+         <td>Mes 1</td>
+         <td>enfermedad 1</td>
+         <td>año 1</td>
+         <td>cantidad 1</td>
+       </tr>
+       <tr>
+         <td>departamento 2</td>
+         <td>mes 2</td>
+         <td>enfermedad 2</td>
+         <td>año 2</td>
+         <td>cantidad 2</td>
+       </tr>
+       <tr>
+         <td>departamento 3</td>
+         <td>mes 3</td>
+         <td>enfermedad 3</td>
+         <td>año 3</td>
+         <td>cantidad 3</td>
+       </tr>
+       <tr>
+         <td>departamento 4</td>
+         <td>mes 4</td>
+         <td>enfermedad 4</td>
+         <td>año 4</td>
+         <td>cantidad 4</td>
+       </tr>
+       <tr>
+         <td>departamento 1</td>
+         <td>Mes 1</td>
+         <td>enfermedad 1</td>
+         <td>año 1</td>
+         <td>cantidad 1</td>
+       </tr>
+       <tr>
+         <td>departamento 2</td>
+         <td>mes 2</td>
+         <td>enfermedad 2</td>
+         <td>año 2</td>
+         <td>cantidad 2</td>
+       </tr>
+       <tr>
+         <td>departamento 3</td>
+         <td>mes 3</td>
+         <td>enfermedad 3</td>
+         <td>año 3</td>
+         <td>cantidad 3</td>
+       </tr>
+       <tr>
+         <td>departamento 4</td>
+         <td>mes 4</td>
+         <td>enfermedad 4</td>
+         <td>año 4</td>
+         <td>cantidad 4</td>
+       </tr>
+    </tbody>
+  </table>
+  </body>
+</html>

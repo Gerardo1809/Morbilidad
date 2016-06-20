@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ConsultarInformacionGeneralDeInformacion</title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <link href="Body.css" rel="stylesheet" type="text/css">
+    <link href="Tabla.css" rel="stylesheet" type="text/css">
+    <link href="Botones.css" rel="stylesheet" type="text/css">
+  </head>
+  <body id="bodyConsultar">
+    <div align="center"><h1><p id="tituloPaginas">Consulta General de Morbilidad</p></h1></div>
+    <br/><br/><br/>
+        <table class="tabla">
+          <caption class="tiTabla">MORBILIDAD MENSUAL CORRESPONDINTE A LAS 5 ENFERMEDADES DE MAYOR INDICE</caption>
+        <br/>
+        <thead>
+           <tr>
+             <th scope="col">Departamento</th>
+             <th scope="col">Mes</th>
+             <th scope="col">Enfermedad</th>
+             <th scope="col">Año</th>
+             <th scope="col">Cantidad</th>
+           </tr>
+        </thead>
+
+        <tbody>
+           <tr>
+             <td>departamento 1</td>
+             <td>Mes 1</td>
+             <td>enfermedad 1</td>
+             <td>año 1</td>
+             <td>cantidad 1</td>
+           </tr>
+           <tr>
+             <td>departamento 2</td>
+             <td>mes 2</td>
+             <td>enfermedad 2</td>
+             <td>año 2</td>
+             <td>cantidad 2</td>
+           </tr>
+           <tr>
+             <td>departamento 3</td>
+             <td>mes 3</td>
+             <td>enfermedad 3</td>
+             <td>año 3</td>
+             <td>cantidad 3</td>
+           </tr>
+           <tr>
+             <td>departamento 4</td>
+             <td>mes 4</td>
+             <td>enfermedad 4</td>
+             <td>año 4</td>
+             <td>cantidad 4</td>
+           </tr>
+           <tr>
+             <td>departamento 1</td>
+             <td>Mes 1</td>
+             <td>enfermedad 1</td>
+             <td>año 1</td>
+             <td>cantidad 1</td>
+           </tr>
+           <tr>
+             <td>departamento 2</td>
+             <td>mes 2</td>
+             <td>enfermedad 2</td>
+             <td>año 2</td>
+             <td>cantidad 2</td>
+           </tr>
+           <tr>
+             <td>departamento 3</td>
+             <td>mes 3</td>
+             <td>enfermedad 3</td>
+             <td>año 3</td>
+             <td>cantidad 3</td>
+           </tr>
+           <tr>
+             <td>departamento 4</td>
+             <td>mes 4</td>
+             <td>enfermedad 4</td>
+             <td>año 4</td>
+             <td>cantidad 4</td>
+           </tr>
+        </tbody>
+      </table>
+      <br/><br/><br/>
+    <form class="form" method="post">
+      <fieldset class="cruConsulta">
+        <br/>
+        <label for="departamento">Departamento:</label>
+          <select name="departamento">
+            <option selected value="0"> Elige una opción </option>
+            <optgroup label="Zona Central">
+              <option value="1">San Salvador</option>
+              <option value="2">La libertad</option>
+              <option value="3">La Paz</option>
+              <option value="4">Cuscatlan</option>
+              <option value="5">San Vicente</option>
+              <option value="6">Cabañas</option>
+              <option value="7">Chalatenango</option>
+            </optgroup>
+            <optgroup label="Zona Occidental">
+              <option value="8">Santa Ana</option>
+              <option value="9">Auachapan</option>
+              <option value="10">Sonsonate</option>
+            </optgroup>
+            <optgroup label="Zona Oriental">
+              <option value="11">Usulutan</option>
+              <option value="12">San Miguel</option>
+              <option value="13">Morazan</option>
+              <option value="14">La Union</option>
+            </optgroup>
+          </select>
+        <br/><br/>
+        <label for="mes">Mes:</label>
+        <select name="mes">
+          <option selected value="0"> Elige una opción </option>
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+        <br/><br/>
+        <label for="año">Año:</label>
+        <select name="año">
+            <option selected value="0"> Elige una opción </option>
+            <option value="1">2014</option>
+            <option value="2">2015</option>
+        </select>
+        <br/><br/>
+        <button id="botonGrafica" onclick="location='MostrarGrafico.html'">Mostrar Grafico</button><br/>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.boton{
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 5px;
+}
+#botonAdministrar{
+  background-color: #0A789F;
+  float: left;
+}
+#botonFormulas{
+  float: left;
+  background-color: #A361A7;
+  clear: left;
+}
+#botonConsultar{
+  float: left;
+  background-color: green;
+}
+#botonAceptar{
+  background-color: #007C92;
+  color: white;
+}
+#botonConsultar:hover,#botonAceptar:hover,#botonFormulas:hover,#botonAdministrar:hover{
+  background: #365D9D;
+	background: linear-gradient(left, #365D9D, #436CAD);
+  background: -moz-linear-gradient(left, #365D9D, #436CAD);
+  background: -webkit-linear-gradient(left, #365D9D, #436CAD);
+	background: -o-linear-gradient(left, #365D9D, #436CAD);
+	color: #FFFFFF;
+	border-color: #FBFFAD;
+}
+#botonGrafica{
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: auto;
+  box-shadow: 4px 4px 4px 4px;
+  align-items: center;
+}

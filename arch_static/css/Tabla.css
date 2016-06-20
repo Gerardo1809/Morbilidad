@@ -1,0 +1,39 @@
+.tabla{
+  align-content: center;
+  margin: auto;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  width: 700px;
+  border-collapse: collapse;
+}
+.tabla th {
+padding: 6px;
+font-size: 16px;
+background-color: #83aec0;
+background-image:url(Imagenes/capturaT.png);
+background-repeat: repeat-x;
+color: #FFFFFF;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+.tabla td {
+padding: 3px;
+font-size: 12px;
+font-weight:bold;
+background-color: #e2ebef;
+background-image: url(Imagenes/capturaT2.jpg);
+background-repeat: repeat-x;
+color: #34484E;
+font-family: “Trebuchet MS”, Arial;
+}
+.tiTabla{
+  font-size: 20px;
+  color: black;
+  padding: 2px;
+}

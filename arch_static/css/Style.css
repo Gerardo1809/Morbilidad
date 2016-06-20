@@ -1,0 +1,108 @@
+#tituloPaginas{
+  color: white;
+  background-color: #8CC63E;
+  font-family: fantasy;
+  font-size: 50;
+  font-style:normal;
+  width: auto;
+  height:auto;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10%;
+  border-color: white;
+}
+.divLogin{
+  width: 328px;
+  height: 328px;
+  background-color: #AABEC6;
+  border-radius: 10%;
+  float:left;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 5px;
+  align-content: center;
+}
+.div:hover{
+  background: #365D9D;
+	background: linear-gradient(left, #365D9D, #436CAD);
+  background: -moz-linear-gradient(left, #365D9D, #436CAD);
+  background: -webkit-linear-gradient(left, #365D9D, #436CAD);
+	background: -o-linear-gradient(left, #365D9D, #436CAD);
+	color: #FFFFFF;
+	border-color: #FBFFAD;
+}
+
+.cruAdministrar{
+  position: relative;
+  border:2px solid #000;
+  left:15%;
+  top:15%;
+  margin-left:125px;
+  margin-top:10px;
+  background-color: green;
+  width:auto;
+  height:225px;
+  margin left: 7%;
+}
+form fieldset {
+  float: left;
+  width: 48%;
+}
+.cruCalculadora{
+  position: relative;
+  border:2px solid #000;
+  left:15%;
+  top:15%;
+  margin-left:175px;
+  margin-top:10px;
+  background-color: green;
+  width:500px;
+  height:auto;
+  margin left: 7%;
+}
+.cruConsulta{
+  position: relative;
+  border:2px solid #000;
+  left:15%;
+  top:15%;
+  margin-left:300px;
+  margin-top:10px;
+  background-color: green;
+  width:auto;
+  height:auto;
+  margin left: 7%;
+  align-content: center;
+  border-collapse: collapse;
+  aling-items: center;
+  justify-content: center;
+}
+
+select{
+	background-position: 280px center;
+  background-repeat: no-repeat;
+  padding: 4px;
+  font-size: 13px;
+  border: 0;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+select:hover{
+	background-color: #ddd;
+}
+fieldset {
+  display: inline-block;
+  align:center;
+}
+
+fieldset input,
+fieldset select{
+float: right;
+margin-left: 5px;
+}
+
+fieldset p {
+text-align: right;
+}
